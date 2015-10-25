@@ -86,6 +86,7 @@ void loop() {
         ledsStatePosB = 10;
 
       updateLedsState(bitOrder, ledsStatePosA, ledsStatePosB);
+
       delay(ledsStateSpeed);
     }
   }
